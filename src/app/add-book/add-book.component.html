@@ -1,0 +1,35 @@
+<div class="wrapper">
+  <form #bookForm="ngForm" (ngSubmit)="createBook(bookForm.value)">
+    <div id="wizard">
+      <h4 style="text-align: center;">Create new book </h4>
+      <section>
+        <div class="form-row" style="margin-bottom: 10px">
+          <label>Isbn</label>
+          <input type="text" ngModel name="isbn" class="form-control" placeholder="Isbn" />
+        </div>
+        <div class="form-row" style="margin-bottom: 10px">
+          <label>Title</label>
+          <input type="text" ngModel name="title" class="form-control" placeholder="Title" />
+        </div>
+        <div class="form-row" style="margin-bottom: 10px">
+          <label>Author</label>
+          <input type="text" ngModel name="author" class="form-control" placeholder="Author" />
+        </div>
+        <div class="form-row" style="margin-bottom: 10px">
+          <label>Categories</label>
+          <input type="text" ngModel name="categories" class="form-control" placeholder="Categories" />
+        </div>
+        <div class="form-row" style="margin-bottom: 10px">
+          <label>Description</label>
+          <textarea ngModel name="description" class="form-control" placeholder="Description" style="height: 90px">
+                  </textarea>
+        </div>
+
+        <div class="d-grid gap-2 col-6 mx-auto">
+          <button class="btn btn-primary">Add</button>
+        </div>
+      </section>
+
+    </div>
+  </form>
+</div>

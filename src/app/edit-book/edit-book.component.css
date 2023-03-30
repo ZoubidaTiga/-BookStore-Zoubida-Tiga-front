@@ -1,0 +1,143 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+body {
+    font-family: "Poppins-Regular";
+    font-size: 15px;
+    color: #666;
+    background-color: #6645eb;
+    margin: 0
+}
+
+:focus {
+    outline: none
+}
+
+textarea {
+    resize: none
+}
+
+input,
+textarea,
+select{
+    font-family: "Poppins-Regular";
+    font-size: 15px;
+    color: #666
+}
+
+button {
+    font-family: "Poppins-Regular";
+    font-size: 15px;
+    color: #fff
+}
+
+
+.wrapper {
+    max-width: 800px;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    align-items: center
+}
+
+.wrapper .image-holder {
+    width: 51%
+}
+
+.wrapper form {
+    width: 100%
+}
+
+.wizard>.steps .current-info,
+.wizard>.steps .number {
+    display: none
+}
+
+#wizard {
+    min-height: 570px;
+    background: #fff;
+    margin-right: 60px;
+    padding: 0px 75px 65px;
+    margin-bottom: 20px;
+}
+
+
+
+.form-row {
+    margin-bottom: 24px
+}
+
+.form-row label {
+    margin-bottom: 8px;
+    display: block
+}
+
+.form-row.form-group {
+    display: flex
+}
+
+.form-row.form-group .form-holder {
+    width: 50%;
+    margin-right: 21px
+}
+
+.form-row.form-group .form-holder:last-child {
+    margin-right: 0
+}
+
+.form-holder {
+    position: relative
+}
+
+.form-holder i {
+    position: absolute;
+    top: 11px;
+    right: 19px;
+    font-size: 17px;
+    color: #999
+}
+
+.form-control {
+    height: 42px;
+    border: 1px solid #e6e6e6;
+    background: none;
+    width: 100%;
+    padding: 0 18px
+}
+
+.form-control:focus {
+    border-color: #f3d4b7
+}
+
+.form-control::-webkit-input-placeholder {
+    color: #999;
+    font-size: 13px
+}
+
+.form-control::-moz-placeholder {
+    color: #999;
+    font-size: 13px
+}
+
+.form-control:-ms-input-placeholder {
+    color: #999;
+    font-size: 13px
+}
+
+.form-control:-moz-placeholder {
+    color: #999;
+    font-size: 13px
+}
+
+textarea.form-control {
+    padding-top: 11px;
+    padding-bottom: 11px
+}
+
+.option {
+    color: #999
+}
+
